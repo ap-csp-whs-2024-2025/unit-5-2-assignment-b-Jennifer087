@@ -9,7 +9,24 @@ int main()
 {
     // You can follow along with any code in class here
 
+    // Problem 1 - Every other name 
+    int curr_index = 0;
+    while (curr_index < names.size ())
+    {
+        std::cout << names [cur_index] << " ";
+        curr_index = curr_+2
+    }
     
+    // problem 5 - All names before thor
+    curr_index = 0;
+    while (curr_index < names.size ())
+    {
+        if (names [curr_index] < "Thor")
+        {
+            std::cout << names [curr_index] << " ";
+        }
+        curr_index = curr_index+1;
+    }
     return 0;
 }
 
